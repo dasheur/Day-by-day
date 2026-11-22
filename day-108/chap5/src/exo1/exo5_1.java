@@ -1,7 +1,9 @@
+package exo1;
+
 import java.util.ArrayList;
 import  java.util.Random;
 public class exo5_1 {
-    public <E> E[]  shuffle(E[] array)
+    public <E> E[] shuffle(E[] array)
     {
         Random generator = new Random();
         for(int i=0;i< array.length;++i)
@@ -14,7 +16,7 @@ public class exo5_1 {
         return array;
     }
 
-    public static  <E> ArrayList<E> shuffle(ArrayList<E> array)
+    public static <E> ArrayList<E> shuffle(ArrayList<E> array)
     {
         Random generator = new Random();
         for(int i=0;i<array.size();++i)
